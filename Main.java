@@ -9,11 +9,15 @@ class Main {
         mhs.setNama("Risiq Nur Rohmat");
         mhs.setNim("G.111.20.0011");
         mhs.setSmt(6);
-
+// ss
         System.out.println("Nama Mahasiswa: " + mhs.getNama());
         System.out.println("Nim Mhs: " + mhs.getNim());
         System.out.println("Smt Mhs: " + mhs.getSmt());
-        System.out.println("USERNAME: " + mhs.getUsername());
-        System.out.println("PASSWORD: " + mhs.getPassword());
+
+
+        User sepeda = new User("Lazzor", "Akulali321");
+    
+    System.out.println("Username :" + sepeda.getUsername());
+    System.out.println("Password :" + sepeda.getPassword());
     }
 }
